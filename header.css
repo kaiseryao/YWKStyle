@@ -1,0 +1,129 @@
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #a9b1ba;
+}
+
+.topnav i{
+  transition: 0.5s;
+}
+
+.topnav i:hover {
+  color: #a9b1ba;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
+
+.topnav a.login {
+  color: rgb(247, 102, 177);
+  transition: 0.5s;
+}
+
+.topnav a.login:hover {
+  color: #a9b1ba;
+}
+
+.social {
+  overflow: hidden;
+}
+
+.social a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.social i {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.social i:hover {
+  color: #a9b1ba;
+}
+
+.trending h1 {
+  font-size: 20px;
+}
+
+
+/* Float four columns side by side */
+.trending .column {
+  float: left;
+  width: 75%;
+  display: block;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.trending .row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.trending .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .trending .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.trending .card {
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+  background-color: transparent;
+  margin-bottom: 10px;
+
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.trending .card h3 {
+  font-size: 15px;
+}
+
+.trending .card p {
+  font-size: 15px;
+}
+
+.trending .card:hover {
+  background-color: #324759;
+	-webkit-transform:scale(1.03);
+	    -ms-transform:scale(1.04);
+	        transform:scale(1.04);
+}
