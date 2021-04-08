@@ -35,6 +35,8 @@
   transition: 0.5s;
 }
 
+
+
 .topnav a.login:hover {
   color: #a9b1ba;
 }
@@ -62,16 +64,18 @@
 .social i:hover {
   color: #a9b1ba;
 }
+/* TRENDING */
+
+
 
 .trending h1 {
-  font-size: 20px;
+  font-size: 24px;
 }
-
 
 /* Float four columns side by side */
 .trending .column {
   float: left;
-  width: 75%;
+  width: 100%;
   display: block;
   padding: 0 10px;
 }
@@ -115,15 +119,34 @@
 
 .trending .card h3 {
   font-size: 15px;
+  margin: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-top: 10px;
 }
 
 .trending .card p {
   font-size: 15px;
+  margin: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+  padding-top: 2px;
 }
+
 
 .trending .card:hover {
   background-color: #324759;
-	-webkit-transform:scale(1.03);
-	    -ms-transform:scale(1.04);
-	        transform:scale(1.04);
+	-webkit-transform:scale(1.02);
+	    -ms-transform:scale(1.02);
+	        transform:scale(1.02);
+}
+
+p.bio {
+  margin-top: 0;
+}
+
+h1.biotitle {
+  margin-bottom: 0px;
 }
